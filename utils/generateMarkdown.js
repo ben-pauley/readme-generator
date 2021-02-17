@@ -15,11 +15,11 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "BSD":
-      return "This project was created under the standard BSD licence. [Learn more here.](https://opensource.org/licenses/BSD-3-Clause)";
+      return "This project was created under the standard BSD licence. Learn more [here](https://opensource.org/licenses/BSD-3-Clause).";
     case "MIT":
-      return "This project was created under the standard MIT licence. [Learn more here.](https://opensource.org/licenses/MIT)";
+      return "This project was created under the standard MIT licence. Learn more [here](https://opensource.org/licenses/MIT).";
     case "GPL":
-      return "This project was created under the standard GPL licence. [Learn more here.](https://opensource.org/licenses/GPL-3.0)";
+      return "This project was created under the standard GPL licence. Learn more [here](https://opensource.org/licenses/GPL-3.0).";
     default:
       // If there is no license, return an empty string
       return "";
