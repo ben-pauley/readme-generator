@@ -37,6 +37,7 @@ ${renderLicenseLink(license)}`;
   }
 }
 
+// inconsistent javascript indentation so that there isn't unwanted indentation in markdown file
 function generateMarkdown(data) {
   return `# ${data.title}
 
