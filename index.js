@@ -13,7 +13,11 @@ const questions = [
   "What is your email address?",
 ];
 
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFileSync(fileName, markdown(data), (err) =>
+    err ? console.error(err) : console.log("File successfully generated!")
+  );
+}
 
 function init() {
   inquirer
@@ -49,9 +53,10 @@ function init() {
         name: "test",
       },
       {
-        type: "input",
+        type: "list",
         message: questions[6],
         name: "license",
+        choices: ["BSD", "MIT", "GPL"],
       },
       {
         type: "input",
