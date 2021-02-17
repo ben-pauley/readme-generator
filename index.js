@@ -50,7 +50,7 @@ function init() {
       {
         type: "input",
         message: questions[5],
-        name: "test",
+        name: "tests",
       },
       {
         type: "list",
