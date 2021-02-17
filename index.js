@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 const questions = [
-  "What is your project about?",
+  "What is the title of your project?",
   "What is your project about?",
   "How do users install your project?",
   "How do users use your project?",
