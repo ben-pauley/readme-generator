@@ -28,7 +28,9 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if (license !== "Other") {
-    return renderLicenseBadge(license) + renderLicenseLink(license);
+    return `${renderLicenseBadge(license)}
+
+${renderLicenseLink(license)}`;
   } else {
     // If there is no license, return an empty string
     return "";
@@ -38,38 +40,38 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description
-  ${data.description}
+## Description
+${data.description}
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  ## Installation
-  ${data.installation}
+## Installation
+${data.installation}
 
-  ## Usage
-  ${data.usage}
+## Usage
+${data.usage}
 
-  ## License
-  ${renderLicenseSection(data.license)}
+## License
+${renderLicenseSection(data.license)}
 
-  ## Contributing
-  ${data.contributing}
+## Contributing
+${data.contributing}
 
-  ## Tests
-  ${data.tests}
+## Tests
+${data.tests}
 
-  ## Questions
-  You can find my GitHub profile, ${data.username}, [here](github.com/${
+## Questions
+You can find my GitHub profile, ${data.username}, [here](http://github.com/${
     data.username
   }).
 
-  If you have any additional questions, email me at ${data.email}.
+If you have any additional questions, email me at ${data.email}.
 `;
 }
 

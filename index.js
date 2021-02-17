@@ -60,7 +60,7 @@ function init() {
         type: "list",
         message: questions[6],
         name: "license",
-        choices: ["BSD", "MIT", "GPL"],
+        choices: ["BSD", "MIT", "GPL", "Other"],
       },
       {
         type: "input",
