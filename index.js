@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
+// questions to be asked by inquirer in command line
 const questions = [
   "What is the title of your project?",
   "What is your project about?",
@@ -13,12 +15,14 @@ const questions = [
   "What is your email address?",
 ];
 
+// write data collected from inquirer to markdown file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, markdown(data), (err) =>
+  fs.writeFile(fileName, generateMarkdown(data), (err) =>
     err ? console.error(err) : console.log("File successfully generated!")
   );
 }
 
+// initialise application with inquirer
 function init() {
   inquirer
     .prompt([
