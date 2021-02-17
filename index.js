@@ -14,7 +14,7 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-  fs.writeFileSync(fileName, markdown(data), (err) =>
+  fs.writeFile(fileName, markdown(data), (err) =>
     err ? console.error(err) : console.log("File successfully generated!")
   );
 }
