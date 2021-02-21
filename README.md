@@ -2,7 +2,7 @@
 
 ## My Repository
 
-In this GitHub repository, you will find my completed README Generator. My task was to create a command-line application that dynamically generates a professional README.md file from a user's input using Node.js and the Inquirer package and to demonstrate how to use the application. I believe I was successful in meeting the required criteria.
+In this GitHub repository, you will find my completed README Generator. My task was to create a command-line application that dynamically generates a professional README.md file from a user's input using Node.js and the Inquirer package and to demonstrate how to use the application. The purpose of this application is to save users time when creating a README for their GitHub repository for their applications, as well as ensuring that their README is high quality every time. I believe I was successful in meeting the required criteria.
 
 ## Installation
 
