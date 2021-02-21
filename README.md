@@ -12,7 +12,7 @@ To install this project, you may either clone this repository to a local directo
 
 This project was completed using Visual Studio Code, the command line, Node.js and the Inquirer package.
 
-## Screenshot of Application
+## Screenshots of Application
 
 ![command line app](/images/command-line.png?raw=true)
 
