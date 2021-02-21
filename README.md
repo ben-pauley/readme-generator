@@ -6,7 +6,7 @@ In this GitHub repository, you will find my completed README Generator. My task 
 
 ## Installation
 
-To install this project, you may either clone this repository to a local directory, or fork the repository to your own GitHub. After having installed Node.js, you must then install the inquirer module using `npm i inquirer` in the command line. Then you will be able to run the application by typing `node index.js`, and then follow the inline instructions. [This video](https://drive.google.com/file/d/1S5icgUmxNBwbbdYDPCL9vQycBRGfqD8K/view) demonstrates exactly how to do all of this.
+To install this project, you may either clone this repository to a local directory, or fork the repository to your own GitHub. After having installed Node.js, you must then install the inquirer module using `npm i inquirer` in the command line. Then you will be able to run the application by typing `node index.js`, and then follow the inline instructions. [This video](https://drive.google.com/file/d/1S5icgUmxNBwbbdYDPCL9vQycBRGfqD8K/view) demonstrates exactly how to do all of this, with a sample of the generated README.md [here](https://drive.google.com/file/d/1NdJNGbT7g2RVezpXi3V6-1N8T0IRc66u/view).
 
 ## Software Used
 
