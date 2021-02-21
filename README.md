@@ -12,9 +12,11 @@ To install this project, you may either clone this repository to a local directo
 
 This project was completed using Visual Studio Code, the command line, Node.js and the Inquirer package.
 
-## Screenshot of Deployed Application
+## Screenshot of Application
 
-![deployed application](/images/readme-app.png?raw=true)
+![command line app](/images/command-line.png?raw=true)
+
+![markdown generated](/images/markdown.png?raw=true)
 
 ## Conclusion
 
